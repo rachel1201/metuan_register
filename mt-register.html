@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+	<title>baidu</title>
+    <link rel="stylesheet" type="text/css" href="css/mt-register.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="l-register" >
+                <a href="www.baidu.com" class="site-logo" ></a>
+                <span class="site-delimiter"></span>
+                <span class="site-name">注册美团账号</span>
+                <div class="r-login">
+                    <span class="login-tip">已有美团账号？</span>
+                    <a href="#" class="login" >登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-body">
+            <div class="content-register">
+                <ul class="signup-header">
+                    <li class="emailborder">
+                        <a class="emailcolor" href="#">
+                            <i class="incon-e"></i>
+                            邮箱登录
+                        </a>
+                    </li>
+                    <li>
+                        <a class="phone" href="#">
+                            <i class="incon-p incon-e"></i>
+                            手机登录
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-form">
+                <form action="www.baidu.com" method="get" id="formsheet" onsubmit="return inforcheck" >
+                    <div class="email-container">
+                        <label>邮箱</label>
+                        <input type="email" class="email-style"  id="inp1">
+                        <p id="msg1"></p>
+                    </div>
+                    <div class="email-container">
+                        <label>用户名</label>
+                        <input type="text" class="email-style" id="inp2">
+                        <span id="msg2"><i></i></span>
+                    </div>
+                    <div class="email-container">
+                        <label>创建密码</label>
+                        <input type="password" name="setpassword" class="email-style" id="inp3">
+                        <span id="msg3"><i></i></span>
+                    </div>
+                    <div class="email-container">
+                        <label>确认密码</label>
+                        <input type="password" name="pdcheck" class="email-style" id="inp2">
+                        <span id="msg4"><i></i></span>
+                    </div>
+                    <div class="input-container">
+                        <input type="submit" value="同意以下协议并注册" class="sumit-style" onclick="submit_tip()">
+                    </div>
+                </form>
+            </div>
+            <div class="content-foruser">
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script src="js/mt-register.js" type="text/javascript"></script>
+</body>
+</html>
