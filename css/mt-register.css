@@ -146,7 +146,7 @@ p{
 	border-bottom: 2px solid #2bb8aa;
 }
 .email-style{
-	border: 1px solid #f76120;
+	border: 1px solid #aaa;
 	float: left;
 	padding: 6px 5px;
 	width: 248px;
@@ -248,4 +248,20 @@ p{
 }
 .focusstyle{
 	display: none;
+}
+.inputerror{
+	border: 1px solid #f76120;
+	float: left;
+	padding: 6px 5px;
+	width: 248px;
+	height: 24px;
+	font-size: 14px;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font: 400 14px/1.5 "Hiragino Sans GB","WenQuanYi Micro Hei",tahoma,sans-serif;
+}
+.inputerror:focus{
+	border: 1px solid #2bb8aa;
+	outline: 0;
 }
